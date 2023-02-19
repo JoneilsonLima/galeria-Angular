@@ -3,13 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Cambria;
+  color: #FFFFFF;
+}
+
+body {
+  background: #181818;
 }
 
 a {
   text-decoration: none;
   transition: .4s;
+  color: #FFFFFF;
 }
 
 a:hover {
   color: #D91720;
+}
+
+ul {
+  list-style: none;
 }

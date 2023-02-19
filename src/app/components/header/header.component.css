@@ -1,0 +1,49 @@
+.logo > a span {
+  color: #D91720;
+  transition: .4s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #474747;
+}
+
+.logo,
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  column-gap: 40px;
+}
+
+input {
+  border: none;
+  color: #FFFFFF;
+  border-radius: 9px;
+  background: #646262;
+  padding: .5em 2em;
+}
+
+input::placeholder {
+  color: #b6aaaa;
+}
+
+.brand h2:hover {
+  transition: .4s;
+  color: #D91720;
+}
+
+.brand h2:hover > span {
+  color: #FFFFFF;
+}
+
+
+.links a {
+    margin-right: 1.2em;
+    padding: .1em .3em;
+}
