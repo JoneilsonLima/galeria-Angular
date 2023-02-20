@@ -23,3 +23,62 @@ a:hover {
 ul {
   list-style: none;
 }
+
+.active {
+  color: #D91720;
+}
+
+
+/* Form */
+form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: .9em;
+  margin-bottom: .4em;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: .6em;
+  color: #ffffff;
+  font-size: .8em;
+  border-radius: 6px;
+}
+
+input[type="text"],
+.form-group textarea {
+  background: #777;
+}
+
+input[type="text"]::placeholder,
+.form-group textarea::placeholder {
+  color: #fff;
+}
+
+
+input[type="submit"] {
+  background: #efefef;
+  border: 2px solid transparent;
+  padding: .6em 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: .4s;
+  border-radius: 4px;
+  color: #181818;
+}
+
+input[type="submit"]:hover {
+  background: #D91720;
+  color: #FFFFFF;
+}
